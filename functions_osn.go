@@ -34,6 +34,7 @@ func NameSumAndMulty(a, b int) (sum int64, mult int64) {
 	return
 }
 
+// Точка входа
 func main() {
 	Greet()
 	PersonGreet("Вячеслав")
