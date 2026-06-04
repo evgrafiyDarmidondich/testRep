@@ -16,3 +16,7 @@ func CreateDivider(divider int, fl string) func(x int) any {
 	}
 	return dividerFunc
 }
+
+func IsChildern(num int) bool {
+	return num < 18
+}

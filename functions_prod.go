@@ -28,4 +28,11 @@ func main() {
 	fmt.Printf("100/2 = %v\n", diveBy2(100)) // в созданую функцию передали число 2 в качестве аргумента
 	fmt.Printf("100*10 = %v\n", diveBy10(100))
 
+	fmt.Println(utils.IsChildern(17))
+
+	if isChild := utils.IsChildern(18); isChild == true {
+		fmt.Println("Это ребенок")
+	}
+
+	utils.TestPakcage()
 }
